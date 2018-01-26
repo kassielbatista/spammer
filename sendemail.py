@@ -100,6 +100,4 @@ if __name__ == "__main__":
         except:
             e = sys.exc_info()[0]
             print("Error: It was not possible to send your email to: " + email)
-            print("Message: " + e),
-
-
+            print("Message: " + e)
